@@ -1,0 +1,52 @@
+.Work {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.Work__title,
+.Work__text {
+    position: relative;
+    z-index: 2;
+}
+
+.Work__title {
+    text-align: center;
+    font-weight: 300;
+    font-size: 70px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.Work__text {
+    text-align: center;
+    max-width: 586px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.Work__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto 0 auto;
+}
+.Work__servicesContent {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.Work__servicesTable {
+    margin: 20px; 
+}
+.Work__servicesName {
+    margin: 50px auto 20px auto;
+    line-height: 0.5;
+    box-sizing: border-box;
+}
+.Work__servicesFooter {
+    display: flex;
+    justify-content: center;
+}

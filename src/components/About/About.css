@@ -1,0 +1,65 @@
+.About {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.About__img {
+    margin-top: 50px;
+}
+.About__image {
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+}
+.About__name {
+    text-transform: uppercase;
+    max-width: 70%;
+    line-height: 0.5;
+    margin-bottom: 50px;
+}
+.About__name p {
+    text-transform: none;
+    line-height: 1.4;
+}
+.About__rightImage {
+    width: 40%;  
+    filter: grayscale(100%);
+    transition: 0.5s; 
+}
+.About__rightImage:hover {
+    filter: grayscale(20%);
+}
+.About__leftImage {
+    filter: grayscale(100%);  
+    width: 58%;
+    transition: 0.2;
+}
+.About__leftImage:hover {
+    filter: grayscale(20%);  
+    width: 58%;
+}
+.About__contentImage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.About__informationTable {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.About__info {
+    width: 49%;
+    line-height: 0.5;
+}
+.About__informationTitle {
+    font-weight: 700;
+    font-size: 25px;
+}
+.About__informationText {
+    line-height: 1.1;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}

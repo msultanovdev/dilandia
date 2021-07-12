@@ -1,0 +1,47 @@
+.Footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #192823;
+}
+
+.Footer__logo {
+    padding: 76px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-weight: 800;
+}
+.Footer__logo::after {
+    content: "";
+    margin-left: 2px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #0e65f3;
+}
+.Footer__media a {
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+.Footer__media {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.Phone__number, .Social__insta, .Social__email, .Social__tg {
+    width: 150px;
+    font-size: 14px;
+    color: white;
+    opacity: 0;
+    transition: 0.7s;
+}
+.Social__telegram:hover + .Social__tg, .Social__instagram:hover + .Social__insta, .Social__mail:hover + .Social__email {
+    opacity: 1;
+}
+.Phone:hover + .Phone__number {
+    opacity: 1;
+}  

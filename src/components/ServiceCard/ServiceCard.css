@@ -1,0 +1,64 @@
+.Service__Card {
+    margin-top: 20px;
+    display: flex;
+    width: 350px;
+    height: 100px;
+    border-radius: 16px;
+    background-color: rgba(163, 132, 132, 0.1);
+    padding: 15px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.Service__Card:hover {
+    opacity: 1;
+}
+.Service__Card-img {
+    width: 100%;
+}
+.Service__Card-img-block {
+    margin: auto 0;
+    width: 20%;
+}
+.Service__Card-name {
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 80%;
+    line-height: 1;
+}
+.Service__Card-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+.Service__Card-text {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0.3px;
+}
+@media screen and (max-width: 1500px) {
+    .Service__Card {
+        margin-top: 20px;
+        display: flex;
+        width: 330px;
+        height: 95px;
+        border-radius: 16px;
+        background-color: rgba(163, 132, 132, 0.1);
+        padding: 15px;
+        opacity: 0.8;
+        transition: 0.3s;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .Service__Card {
+        margin-top: 10px;
+        display: flex;
+        width: 310px;
+        height: 95px;
+        border-radius: 16px;
+        background-color: rgba(163, 132, 132, 0.1);
+        padding: 15px;
+        opacity: 0.8;
+        transition: 0.3s;
+    }
+
+}

@@ -1,0 +1,38 @@
+.Services {
+    width: 80%;
+    margin: 0 auto;
+}
+.Services__hero {
+    padding-bottom: 80px;
+}
+.Services__content {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    align-items: center;
+}
+.Services__name {
+    width: 50%;
+}
+.Services__title {
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.Services__text {
+    max-width: 586px;
+    font-weight: 300;
+}
+.Services__img {
+    width: 50%;
+}
+.Services__image {
+    width: 100%;
+}
+.Services__cards {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

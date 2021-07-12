@@ -1,0 +1,91 @@
+.Home__wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.Home {
+    background: black url('./assets/background.jpg') no-repeat center/cover;
+    color: white;
+    border-radius: 16px;
+    padding: 166px 100px 100px 307px;
+}
+
+.Home__title {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 95px;
+    max-width: 895px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-transform: uppercase;
+}
+.Home__text {
+    max-width: 586px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.Home__workHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    line-height: 0.5;
+}
+
+.Home__workFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.Home__workContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Home_servicesTable {
+    display: flex;
+    justify-content: space-between;
+}
+.Home__services {
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+.Home__servicesName {
+    margin: 0 auto;
+    line-height: 0.5;
+    box-sizing: border-box;
+}
+
+.Home__servicesTable {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.Home__servicesContent {
+    margin: 20px;
+}
+@media screen and (max-width: 1400px) {
+    .Home__wrapper {
+        max-width: inherit;
+        width: inherit;
+        margin: 0 auto;
+    }
+    .Home {
+        background: black url('./assets/background.jpg') no-repeat center/cover;
+        color: white;
+        border-radius: 16px;
+        padding: 166px 100px 100px 307px;
+    }
+    .Home__work {
+        max-width: inherit;
+        width: inherit;
+    }
+    .Home__workContent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .Home__servicesContent {
+        margin: 10px;
+    }
+}
